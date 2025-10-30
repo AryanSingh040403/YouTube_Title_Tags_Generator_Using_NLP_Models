@@ -1,11 +1,7 @@
-
-# Ignore datasets and model checkpoints
 data/*.csv
-models/*
 *.pt
 *.bin
-*.safetensors
 *.pkl
+*.safetensors
 *.zip
 *.tar.gz
-*.ipynb_checkpoints
