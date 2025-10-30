@@ -1,7 +1,15 @@
+# Ignore large or unnecessary files
 data/*.csv
-*.pt
-*.bin
-*.pkl
-*.safetensors
 *.zip
-*.tar.gz
+*.tar
+*.gz
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.h5
+models/
+__pycache__/
+.ipynb_checkpoints/
+*.log
+.env
