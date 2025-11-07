@@ -70,7 +70,7 @@ Predicted Category: Technology
 
 ## 👨‍💻 Author
 **Aryan Singh**  
-AIML Graduate | Deep Learning Researcher | ML | NLp Enthusiast  
+AIML Engineer | Deep Learning Researcher | ML | NLp Enthusiast  
 📧 your-aryansingh20030404@gmail.com
 
 
