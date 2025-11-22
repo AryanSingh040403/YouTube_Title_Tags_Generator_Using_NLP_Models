@@ -1,32 +1,27 @@
+# YouTube Title & Tags Generator
 
-# 🎬 YouTube Title & Tags Generator using NLP
+I built this pipeline to automate the boring part of YouTube uploads: writing titles and tags. Instead of agonizing over SEO manually or guessing what keywords work, I fine-tuned a few Transformer models to analyze the transcript and generate the metadata automatically.
 
-A deep learning powered system that automatically generates catchy video titles and SEO-optimized tags for YouTube videos based on their transcript or summary.
+## How It Works
 
----
+The system uses an ensemble of three specific models to handle different parts of the metadata generation:
 
-## 🧠 Project Overview
+* **BART:** Handles the heavy lifting for text summarization to generate a relevant title.
+* **T5:** Digs through the content to extract specific keywords and generate tags.
+* **DistilBERT:** Classifies the video into the correct category (Tech, Education, Gaming, etc.).
 
-This project fine-tunes three Transformer models:
-- **BART** → Summarization & Title Generation
-- **T5** → Keyword & Tag Generation
-- **DistilBERT** → Category Classification
+Everything is wrapped in a simple Streamlit interface so you don't have to run inference scripts manually every time.
 
-These models are combined into one end-to-end pipeline and deployed with a Streamlit app.
+## Features
 
----
+* Generates titles based on video transcripts/summaries.
+* Suggests 5–10 relevant tags.
+* Classifies videos into standard YouTube categories.
+* Simple web UI built with Streamlit.
 
-## 🚀 Features
-- Automatically generates attractive YouTube titles
-- Suggests 5–10 SEO-friendly tags
-- Classifies videos into relevant categories
-- Streamlit-based web interface
-- Built using Hugging Face Transformers and KeyBERT
+## Project Structure
 
----
-
-## 📁 Project Structure
-
+```text
 YouTube_Title_Tags_Generator/
 ├── data/
 │   └── data.csv
@@ -45,38 +40,37 @@ YouTube_Title_Tags_Generator/
 ├── requirements.txt
 └── README.md
 
----
-
-## ⚙️ Setup Instructions
-
-### Step 1: Install dependencies
+Setup Instructions
+1. Install dependencies
 Run this in your terminal:
-    pip install -r requirements.txt
+pip install -r requirements.txt
 
-### Step 2: (Optional) Re-train models
-Open the training notebooks inside `/scripts/` to fine-tune each model.
+2. (Optional) Re-train models
+If you want to improve performance on your specific niche, open the training notebooks inside /scripts/ to fine-tune each model on your own dataset.
 
-### Step 3: Run the Streamlit app
-    streamlit run app.py
+3. Run the Streamlit app
+streamlit run app.py
 
----
+Example Output
+Generated Title: "How AI Is Changing Content Creation in 2025"
 
-## 💡 Example Output
-Generated Title: "How AI Is Revolutionizing Content Creation in 2025"  
-Generated Tags: ["AI", "machine learning", "YouTube automation", "content tools"]  
+Generated Tags: ["AI", "machine learning", "YouTube automation", "content tools"]
+
 Predicted Category: Technology
 
----
+Roadmap
+[ ] Add support for longer video transcripts (currently limited by BART token size).
 
-## 👨‍💻 Author
-**Aryan Singh**  
-AIML Engineer | Deep Learning Researcher | ML | NLp Enthusiast  
-📧 your-aryansingh20030404@gmail.com
+[ ] Improve tag relevance for non-English videos.
 
+[ ] Dockerize the application for easier deployment.
 
----
+Author
+Built by Aryan Singh
 
-## 🙌 Acknowledgements
-- Hugging Face Transformers  
-- KeyBERT  
-- Streamlit
+I am a Machine Learning Engineer and Deep Learning researcher with a deep enthusiasm for NLP. I love building practical systems that bridge the gap between complex research and real-world utility.
+
+email - aryansingh20030404@gmail.com
+Linkdin - www.linkedin.com/in/aryan-singh-9aa715292
+HuggingFace - 
+Built using Hugging Face Transformers and KeyBERT.
