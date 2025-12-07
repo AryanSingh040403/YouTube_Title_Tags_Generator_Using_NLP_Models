@@ -39,8 +39,10 @@ YouTube_Title_Tags_Generator/
 ├── app.py
 ├── requirements.txt
 └── README.md
+```
 
-Setup Instructions
+## Setup Instructions
+
 1. Install dependencies
 Run this in your terminal:
 pip install -r requirements.txt
@@ -58,18 +60,19 @@ Generated Tags: ["AI", "machine learning", "YouTube automation", "content tools"
 
 Predicted Category: Technology
 
-Roadmap
+## Roadmap
+
 [ ] Add support for longer video transcripts (currently limited by BART token size).
 
 [ ] Improve tag relevance for non-English videos.
 
 [ ] Dockerize the application for easier deployment.
 
-Author
-Built by Aryan Singh
+## Author
 
-I am a Machine Learning Engineer and Deep Learning researcher with a deep enthusiasm for NLP. I love building practical systems that bridge the gap between complex research and real-world utility.
-
+Built by - Aryan Singh
+I am a Machine Learning Engineer and Deep Learning researcher with a deep enthusiasm for NLP. I'm passionate about building practical systems that bridge the gap between complex research and real-world utility.
+HuggingFace -
 email - aryansingh20030404@gmail.com
 Linkdin - www.linkedin.com/in/aryan-singh-9aa715292
 HuggingFace - 
