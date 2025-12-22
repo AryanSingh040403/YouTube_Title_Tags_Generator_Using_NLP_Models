@@ -76,4 +76,5 @@ HuggingFace -
 email - aryansingh20030404@gmail.com
 Linkdin - www.linkedin.com/in/aryan-singh-9aa715292
 HuggingFace - 
+Twitter - 
 Built using Hugging Face Transformers and KeyBERT.
