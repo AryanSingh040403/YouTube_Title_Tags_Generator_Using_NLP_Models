@@ -75,6 +75,6 @@ I am a Machine Learning Engineer and Deep Learning researcher with a deep enthus
 HuggingFace -
 email - aryansingh20030404@gmail.com
 Linkdin - www.linkedin.com/in/aryan-singh-9aa715292
-HuggingFace - 
+HuggingFace - aryansingh0404
 Twitter - 
 Built using Hugging Face Transformers and KeyBERT.
