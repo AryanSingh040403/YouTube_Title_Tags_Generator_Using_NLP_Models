@@ -72,7 +72,7 @@ Predicted Category: Technology
 
 Built by - Aryan Singh
 I am a Machine Learning Engineer and Deep Learning researcher with a deep enthusiasm for NLP. I'm passionate about building practical systems that bridge the gap between complex research and real-world utility.
-HuggingFace -
+HuggingFace - https://huggingface.co/aryan0404
 email - aryansingh20030404@gmail.com
 Linkdin - www.linkedin.com/in/aryan-singh-9aa715292
 HuggingFace - aryansingh0404
