@@ -21,25 +21,7 @@ Everything is wrapped in a simple Streamlit interface so you don't have to run i
 
 ## Project Structure
 
-```text
-YouTube_Title_Tags_Generator/
-├── data/
-│   └── data.csv
-├── models/
-│   ├── bart-title/
-│   ├── t5-tags/
-│   ├── distilbert-category/
-│   └── label_encoder.pkl
-├── scripts/
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_train_bart.ipynb
-│   ├── 03_train_t5.ipynb
-│   ├── 04_train_distilbert.ipynb
-│   └── 05_inference_pipeline.ipynb
-├── app.py
-├── requirements.txt
-└── README.md
-```
+
 
 ## Setup Instructions
 
